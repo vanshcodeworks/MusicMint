@@ -5,7 +5,6 @@ This document tracks user testing evidence and product iteration decisions.
 ## Collection Method
 
 - Primary channel: Google Form
-- Optional channel: direct DM/interview notes
 - Required fields per response:
 	- Wallet address
 	- Name/alias
@@ -16,8 +15,7 @@ This document tracks user testing evidence and product iteration decisions.
 ## Evidence Files
 
 - Form export file path: `docs/evidence/ADD_FEEDBACK_EXPORT_FILE.xlsx`
-- Optional public sheet link: `ADD_PUBLIC_FEEDBACK_LINK`
-- Optional screenshot/video folder: `docs/evidence/`
+- Public sheet link: `ADD_PUBLIC_FEEDBACK_LINK`
 
 ## Required Wallet Address List (5+)
 

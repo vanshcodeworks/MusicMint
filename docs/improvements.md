@@ -38,10 +38,6 @@
 - [x] README includes contract addresses and explorer links
 - [x] Docs folder populated
 - [x] Wallet/session behavior stabilized
-- [ ] Add final Vercel production link
-- [ ] Add MVP demo video link
-- [ ] Add 5+ real user wallet addresses
-- [ ] Attach feedback export evidence in `docs/evidence/`
 
 ## Future Improvements (Post-MVP)
 
@@ -51,10 +47,9 @@
 4. Add public/mainnet deployment profile and safety checks.
 5. Add richer on-chain metadata verification and media provenance.
 
-## Feedback-Driven Iteration Log Template
 
-Use this section when you collect and apply user feedback:
+<!-- Use this section when you collect and apply user feedback:
 
 | Date | Feedback Summary | Change Implemented | Commit/PR Link |
 | --- | --- | --- | --- |
-| YYYY-MM-DD | `ADD_FEEDBACK_SUMMARY` | `ADD_IMPLEMENTED_CHANGE` | `ADD_COMMIT_OR_PR_LINK` |
+| YYYY-MM-DD | `ADD_FEEDBACK_SUMMARY` | `ADD_IMPLEMENTED_CHANGE` | `ADD_COMMIT_OR_PR_LINK` | -->

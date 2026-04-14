@@ -10,11 +10,17 @@ SoundMint is a music NFT marketplace MVP built on Stellar Soroban. Independent a
 - GitHub Actions CI/CD workflow for lint, build, and contract tests
 - Submission-ready documentation in `docs/`
 
-### Live Demo Link
-- `ADD_VERCEL_LIVE_DEMO_LINK`
+## Live Demo Link
+- https://your-project-name.vercel.app
 
-### Demo Video Link (Full MVP Walkthrough)
-- `ADD_DEMO_VIDEO_LINK`
+## Demo Video Link (Full MVP Walkthrough)
+- https://www.youtube.com/watch?v=your_video_id
+
+## Supporting Documentation
+
+- [Architecture](docs/architecture.md)
+- [Improvements](docs/improvements.md)
+- [User Feedback](docs/user-feedback.md)
 
 ## Live Contract Addresses (Stellar Testnet)
 
