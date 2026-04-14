@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build and cache output
+**/dist/
+**/.vite/
+**/coverage/
+**/.turbo/
+**/.cache/
+
+# Rust artifacts
+**/target/
+
+# Vercel artifacts
+.vercel/
+frontend/.vercel/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
