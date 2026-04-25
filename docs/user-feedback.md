@@ -6,44 +6,32 @@ This document tracks user testing evidence and product iteration decisions.
 
 - Primary channel: Google Form
 - Required fields per response:
-	- Wallet address
-	- Name/alias
-	- Rating
-	- What worked
-	- What should improve
+    - Wallet address
+    - Name/alias
+    - Rating
+    - What worked
+    - What should improve
 
 ## Evidence Files
 
-- Form export file path: `docs/evidence/ADD_FEEDBACK_EXPORT_FILE.xlsx`
-- Public sheet link: `ADD_PUBLIC_FEEDBACK_LINK`
+- Public sheet link: `https://docs.google.com/spreadsheets/d/1bq4uljbIcVZpR1B0YjR7DN--3zyQhKtRlpOe-AOdfIM/edit?usp=sharing`
 
 ## Required Wallet Address List (5+)
 
-Replace placeholders with real participant wallets.
-
 | # | Wallet Address | Explorer Link | Verified |
 | --- | --- | --- | --- |
-| 1 | `REPLACE_WITH_TESTNET_WALLET_1` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_1 | No |
-| 2 | `REPLACE_WITH_TESTNET_WALLET_2` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_2 | No |
-| 3 | `REPLACE_WITH_TESTNET_WALLET_3` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_3 | No |
-| 4 | `REPLACE_WITH_TESTNET_WALLET_4` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_4 | No |
-| 5 | `REPLACE_WITH_TESTNET_WALLET_5` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_5 | No |
+| 1 | `GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE` | [https://stellar.expert/explorer/testnet/account/GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE](https://stellar.expert/explorer/testnet/account/GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE) | Yes |
+| 2 | `GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6` | [https://stellar.expert/explorer/testnet/account/GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6](https://stellar.expert/explorer/testnet/account/GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6) | Yes |
+| 3 | `GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ` | [https://stellar.expert/explorer/testnet/account/GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ](https://stellar.expert/explorer/testnet/account/GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ) | Yes |
+| 4 | `GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5` | [https://stellar.expert/explorer/testnet/account/GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5](https://stellar.expert/explorer/testnet/account/GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5) | Yes |
+| 5 | `GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ` | [https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ](https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ) | Yes |
 
 ## Feedback Summary Table
 
 | Wallet | Rating (1-5) | Positive Notes | Improvement Request | Status |
 | --- | --- | --- | --- | --- |
-| `REPLACE_WALLET` | `REPLACE_RATING` | `REPLACE_POSITIVE` | `REPLACE_REQUEST` | `Open/Done` |
-
-## Improvement Actions Linked to Feedback
-
-| Date | Feedback Trigger | Product Change | Commit/PR |
-| --- | --- | --- | --- |
-| YYYY-MM-DD | `REPLACE_TRIGGER` | `REPLACE_CHANGE` | `REPLACE_LINK` |
-
-## Minimum Submission Evidence Checklist
-
-- [ ] 5+ wallets are listed and explorer-verifiable
-- [ ] At least one feedback export is attached in `docs/evidence/`
-- [ ] At least one product change is mapped to feedback
-- [ ] README links to this document and evidence
+| `GB7QP3KA...` | 5 | Platform is good, glass morphism is great. | None | Done |
+| `GBMJFQOD...` | 4 | Good concept. | Can add some kind of backend to track listings. | Open |
+| `GCRRSYF5...` | 5 | N/A | N/A | Done |
+| `GBBD47IF...` | 5 | Interface is solid. | If music played there it would be great. | Open |
+| `GA7QYNF7...` | 5 | NA, All good. | None | Done |

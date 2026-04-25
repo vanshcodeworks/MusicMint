@@ -21,12 +21,11 @@ pub struct MusicToken {
     pub created_at: u64,
 }
 
-// ✅ NEW: We now track Balances separately from the Token itself
 #[contracttype]
 #[derive(Clone)]
 pub enum DataKey {
     Token(u64),
-    Balance(Address, u64), // (UserAddress, TokenId) -> BalanceAmount
+    Balance(Address, u64), 
 }
 
 #[contract]

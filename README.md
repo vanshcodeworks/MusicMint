@@ -11,10 +11,10 @@ SoundMint is a music NFT marketplace MVP built on Stellar Soroban. Independent a
 - Submission-ready documentation in `docs/`
 
 ## Live Demo Link
-- https://your-project-name.vercel.app
+- https://musicmint-dusky.vercel.app/
 
 ## Demo Video Link (Full MVP Walkthrough)
-- https://www.youtube.com/watch?v=your_video_id
+- https://youtu.be/tfGsPWsuOUY
 
 ## Supporting Documentation
 
@@ -124,11 +124,12 @@ On push/PR/manual dispatch, it runs:
 
 | # | Wallet Address | Explorer Link |
 | --- | --- | --- |
-| 1 | `REPLACE_WITH_TESTNET_WALLET_1` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_1 |
-| 2 | `REPLACE_WITH_TESTNET_WALLET_2` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_2 |
-| 3 | `REPLACE_WITH_TESTNET_WALLET_3` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_3 |
-| 4 | `REPLACE_WITH_TESTNET_WALLET_4` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_4 |
-| 5 | `REPLACE_WITH_TESTNET_WALLET_5` | https://stellar.expert/explorer/testnet/account/REPLACE_WITH_TESTNET_WALLET_5 |
+| 1 | `GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE` | [https://stellar.expert/explorer/testnet/account/GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE](https://stellar.expert/explorer/testnet/account/GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE) |
+| 2 | `GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6` | [https://stellar.expert/explorer/testnet/account/GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6](https://stellar.expert/explorer/testnet/account/GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6) |
+| 3 | `GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ` | [https://stellar.expert/explorer/testnet/account/GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ](https://stellar.expert/explorer/testnet/account/GCRRSYF5JBFPXHN5DCG65A4J3MUYE53QMQ4XMXZ3CNKWFJIJJTGMH6MZ) |
+| 4 | `GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5` | [https://stellar.expert/explorer/testnet/account/GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5](https://stellar.expert/explorer/testnet/account/GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5) |
+| 5 | `GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ` | [https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ](https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ) |
+
 
 ### User Feedback Documentation
 - Feedback doc in repo: `docs/user-feedback.md`
