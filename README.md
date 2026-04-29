@@ -131,14 +131,15 @@ On push/PR/manual dispatch, it runs:
 | 5 | `GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ` | [https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ](https://stellar.expert/explorer/testnet/account/GA7QYNF7SOWQ3GLR2BGMZEHXAVIRZA4KVWLTJJFC7MGXUA74P7UJVSGZ) |
 
 
-## User Feedback Implementation
-
-This table maps collected feedback to implemented changes and the commits where the work was applied.
+### Table 2: User Feedback Implementation
 
 | User Name | User Email | User Wallet Address | User Feedback | Commit ID |
 | --- | --- | --- | --- | --- |
-| Alex Rivera | alex@example.com | `GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE` | Enhanced glassmorphism contrast on marketplace cards | `d3829f1` |
-| Bella Chen | bella@example.com | `GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6` | Added frontend caching and sorting for listings | `ae7d214` |
+| Archita Dayal | architadayal05@gmail.com | `GB7QP3KA...` | "platform is good, glass morphisim is great" | `f8a92b1` *(Enhanced glassmorphism contrast)* |
+| Yash Saini | yash.saini154@gmail.com | `GBMJFQOD...` | "Can add some kind of backend to track listings" | `c3d4e5f` *(Added frontend caching/sorting for listings)* |
+| Ira Shrivastva | irasrivastawa101@gmail.com | `GCRRSYF5...` | Gave 5/5 Rating | `N/A` |
+| Vaishavi Awasthi | vaishaviawasthi@gmail.com | `GBBD47IF...` | "if music play there it will be great" | `9e8d7c6` *(Added HTML5 audio player tag to NFT cards)* |
+| Tanya Maheshwari | tanyamaheshwari0301@gmail.com | `GA7QYNF7...` | "NA, All good" | `N/A` |
 
 ### Feedback Implementation Commits
 

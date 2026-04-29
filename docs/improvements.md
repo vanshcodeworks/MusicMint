@@ -60,7 +60,7 @@ The table below records user feedback items and the commits where they were impl
 
 | Date | User | Feedback Summary | Change Implemented | Commit ID |
 | --- | --- | --- | --- | --- |
-| 2026-04-15 | Alex Rivera (alex@example.com) | Improve contrast on marketplace cards | UI contrast and overlay opacity adjustments | `d3829f1` |
+| 2026-04-15 |  | Improve contrast on marketplace cards | UI contrast and overlay opacity adjustments | `d3829f1` |
 | 2026-04-20 | Bella Chen (bella@example.com) | Faster listing loads and better sort controls | Client-side caching and sorting controls | `ae7d214` |
 
 Commit notes:

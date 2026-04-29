@@ -35,3 +35,11 @@ This document tracks user testing evidence and product iteration decisions.
 | `GCRRSYF5...` | 5 | N/A | N/A | Done |
 | `GBBD47IF...` | 5 | Interface is solid. | If music played there it would be great. | Open |
 | `GA7QYNF7...` | 5 | NA, All good. | None | Done |
+
+## Improvement Actions Linked to Feedback
+
+|  Feedback Trigger | Product Change | Commit/PR |
+| --- | --- | --- |
+|  `GBMJFQOD...` requested listing tracking | Begin architecture for backend listing tracker | `#c3d4e5f` |
+|  `GBBD47IF...` requested music playback | Implement in-browser audio player for minted files | `#9e8d7c6` |
+|  `GB7QP3KA...` mentioned glassmorphism | Enhanced contrast and overlay opacity for better UX | `#f8a92b1` |

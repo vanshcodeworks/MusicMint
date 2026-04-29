@@ -275,7 +275,7 @@ export function MarketplaceGrid({ listings, account, onPurchased }: MarketplaceG
       case "price-desc": return [...items].sort((a, b) => b.price - a.price);
       default:           return [...items].sort((a, b) => b.contractListingId - a.contractListingId);
     }
-  }, [listings, sort, filter]);
+  }, [listings, cachedListings, sort, filter]);
 
   function handleBuy(listing: ListingItem) {
     if (!account) return;
