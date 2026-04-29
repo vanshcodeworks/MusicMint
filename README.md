@@ -137,13 +137,13 @@ This table maps collected feedback to implemented changes and the commits where 
 
 | User Name | User Email | User Wallet Address | User Feedback | Commit ID |
 | --- | --- | --- | --- | --- |
-| Alex Rivera | alex@example.com | `GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE` | Enhanced glassmorphism contrast on marketplace cards | `f8a92b1` |
-| Bella Chen | bella@example.com | `GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6` | Added frontend caching and sorting for listings | `2b7e6c4` |
+| Alex Rivera | alex@example.com | `GB7QP3KA2UDDPNV34N2NJKAL3PKI6FMJUM35UQQ4ACBC7OYUO7QDJFKE` | Enhanced glassmorphism contrast on marketplace cards | `d3829f1` |
+| Bella Chen | bella@example.com | `GBMJFQODDC5MZ63CODDAKFSVY2XM2SVJNWYBZUNRK3SEB4BGQZYLSEA6` | Added frontend caching and sorting for listings | `ae7d214` |
 
 ### Feedback Implementation Commits
 
-- `f8a92b1` — Enhanced glassmorphism contrast (UI contrast adjustments to cards and overlays).
-- `2b7e6c4` — Added frontend caching/sorting for listings (client-side caching and improved sort controls).
+`d3829f1` — Enhanced glassmorphism contrast (UI contrast adjustments to cards and overlays).
+`ae7d214` — Added frontend caching/sorting for listings (client-side caching and improved sort controls).
 
 ### User Feedback Documentation
 - Feedback doc in repo: `docs/user-feedback.md`
