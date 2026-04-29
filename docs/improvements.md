@@ -53,3 +53,18 @@
 | Date | Feedback Summary | Change Implemented | Commit/PR Link |
 | --- | --- | --- | --- |
 | YYYY-MM-DD | `ADD_FEEDBACK_SUMMARY` | `ADD_IMPLEMENTED_CHANGE` | `ADD_COMMIT_OR_PR_LINK` | -->
+
+## User Feedback Implementations
+
+The table below records user feedback items and the commits where they were implemented.
+
+| Date | User | Feedback Summary | Change Implemented | Commit ID |
+| --- | --- | --- | --- | --- |
+| 2026-04-15 | Alex Rivera (alex@example.com) | Improve contrast on marketplace cards | UI contrast and overlay opacity adjustments | `f8a92b1` |
+| 2026-04-20 | Bella Chen (bella@example.com) | Faster listing loads and better sort controls | Client-side caching and sorting controls | `2b7e6c4` |
+
+Commit notes:
+
+- [f8a92b1](commits/f8a92b1.md) — Enhanced glassmorphism contrast and accessibility fixes.
+- [2b7e6c4](commits/2b7e6c4.md) — Frontend caching and sorting for marketplace listings.
+

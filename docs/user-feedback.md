@@ -14,7 +14,7 @@ This document tracks user testing evidence and product iteration decisions.
 
 ## Evidence Files
 
-- Public sheet link: `https://docs.google.com/spreadsheets/d/1bq4uljbIcVZpR1B0YjR7DN--3zyQhKtRlpOe-AOdfIM/edit?usp=sharing`
+- Public sheet link: [https://docs.google.com/spreadsheets/d/1bq4uljbIcVZpR1B0YjR7DN--3zyQhKtRlpOe-AOdfIM/edit?usp=sharing](link)
 
 ## Required Wallet Address List (5+)
 
