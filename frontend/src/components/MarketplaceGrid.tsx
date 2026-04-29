@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import type { ListingItem } from "../types";
 import { BuyModal } from "./BuyModal";
+import { useListingsCache } from "../hooks/useListingsCache";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -256,11 +257,13 @@ function Toolbar({
 
 export function MarketplaceGrid({ listings, account, onPurchased }: MarketplaceGridProps) {
   const [selectedListing, setSelectedListing] = useState<ListingItem | null>(null);
-  const [sort,   setSort]   = useState<SortKey>("newest");
+  const [sort, setSort] = useState<SortKey>("newest");
   const [filter, setFilter] = useState("");
 
-  
+  // 1. Moved this UP so it is declared before activeListings uses it
+  const { listings: cachedListings } = useListingsCache(listings as any[]);
 
+  // 2. Now activeListings can safely reference cachedListings
   const activeListings = useMemo(() => {
     const source = (listings && listings.length > 0) ? listings : (cachedListings || []);
     let items = source.filter((l) => l.status === "active");
@@ -287,11 +290,10 @@ export function MarketplaceGrid({ listings, account, onPurchased }: MarketplaceG
     onPurchased?.();
   }
 
-  const { listings: cachedListings } = useListingsCache(listings as any[]);
-
   useEffect(() => {
     try { localStorage.setItem("marketplaceSortKey", sort); } catch {}
   }, [sort]);
+
   return (
     <section>
       <Toolbar
