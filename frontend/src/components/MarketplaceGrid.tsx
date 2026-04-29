@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import type { ListingItem } from "../types";
 import { BuyModal } from "./BuyModal";
 
@@ -287,6 +288,11 @@ export function MarketplaceGrid({ listings, account, onPurchased }: MarketplaceG
     onPurchased?.();
   }
 
+  const { listings: cachedListings } = useListingsCache(listings as any[]);
+
+  useEffect(() => {
+    try { localStorage.setItem("marketplaceSortKey", sort); } catch {}
+  }, [sort]);
   return (
     <section>
       <Toolbar
