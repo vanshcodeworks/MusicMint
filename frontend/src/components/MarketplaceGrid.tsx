@@ -1,4 +1,3 @@
-import { useState, useMemo } from "react";
 import { useState, useMemo, useEffect } from "react";
 import type { ListingItem } from "../types";
 import { BuyModal } from "./BuyModal";
