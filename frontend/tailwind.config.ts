@@ -8,7 +8,8 @@ export default {
         void:    "#07070f",
         abyss:   "#0d0d1a",
         surface: "#12121f",
-        glass:   "rgba(255,255,255,0.04)",
+        // increased glass alpha for stronger contrast
+        glass:   "rgba(255,255,255,0.10)",
 
         // Neon accents
         neon: {
@@ -38,11 +39,12 @@ export default {
         "grid": "48px 48px",
       },
       borderColor: {
-        glass: "rgba(255,255,255,0.08)",
-        "glass-hover": "rgba(255,255,255,0.18)",
-        "neon-purple": "rgba(168,85,247,0.4)",
-        "neon-cyan":   "rgba(34,211,238,0.4)",
-        "neon-pink":   "rgba(236,72,153,0.4)",
+        // slightly stronger borders for glass effect
+        glass: "rgba(255,255,255,0.14)",
+        "glass-hover": "rgba(255,255,255,0.26)",
+        "neon-purple": "rgba(168,85,247,0.5)",
+        "neon-cyan":   "rgba(34,211,238,0.5)",
+        "neon-pink":   "rgba(236,72,153,0.5)",
       },
       boxShadow: {
         "neon-purple": "0 0 20px rgba(168,85,247,0.35), 0 0 60px rgba(168,85,247,0.1)",
@@ -50,7 +52,7 @@ export default {
         "neon-pink":   "0 0 20px rgba(236,72,153,0.35),  0 0 60px rgba(236,72,153,0.1)",
         "glass":       "0 8px 32px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06)",
         "glass-lg":    "0 20px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.08)",
-        "card-hover":  "0 16px 48px rgba(168,85,247,0.15), 0 4px 12px rgba(0,0,0,0.4)",
+        "card-hover":  "0 18px 56px rgba(168,85,247,0.20), 0 6px 18px rgba(0,0,0,0.5)",
       },
       animation: {
         "pulse-slow":    "pulse 4s cubic-bezier(0.4,0,0.6,1) infinite",

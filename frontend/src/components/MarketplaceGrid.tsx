@@ -51,7 +51,7 @@ function ListingCard({ listing, isSelf, onBuy }: CardProps) {
   return (
     <article className="
       group relative
-      bg-surface/60 backdrop-blur-sm
+      bg-surface/80 backdrop-blur-sm
       border border-glass hover:border-glass-hover
       rounded-2xl overflow-hidden
       hover:shadow-card-hover
@@ -86,8 +86,8 @@ function ListingCard({ listing, isSelf, onBuy }: CardProps) {
         </svg>
 
         {/* Token ID badge */}
-        <div className="absolute top-3 left-3">
-          <span className="text-[10px] font-mono bg-black/40 backdrop-blur-sm border border-white/10 rounded px-2 py-0.5 text-gray-300">
+          <div className="absolute top-3 left-3">
+          <span className="text-[10px] font-mono bg-black/50 backdrop-blur-sm border border-white/14 rounded px-2 py-0.5 text-gray-200">
             #{listing.contractListingId}
           </span>
         </div>
@@ -128,10 +128,10 @@ function ListingCard({ listing, isSelf, onBuy }: CardProps) {
           </div>
 
           <div className="mt-2 flex items-center gap-2 text-[11px] font-mono">
-            <span className="px-2 py-0.5 rounded bg-white/4 border border-glass text-gray-500">
+            <span className="px-2 py-0.5 rounded bg-white/8 border border-glass text-gray-300">
               listed x{listing.quantity}
             </span>
-            <span className="px-2 py-0.5 rounded bg-neon-cyan/10 border border-neon-cyan/20 text-neon-cyan/80">
+            <span className="px-2 py-0.5 rounded bg-neon-cyan/20 border border-neon-cyan/30 text-neon-cyan">
               remaining x{listing.remainingQuantity}
             </span>
           </div>
@@ -148,14 +148,14 @@ function ListingCard({ listing, isSelf, onBuy }: CardProps) {
         {/* Price + buy row */}
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-[10px] text-gray-600 uppercase tracking-wider font-mono">Price</p>
+            <p className="text-[10px] text-gray-400 uppercase tracking-wider font-mono">Price</p>
             <p className="text-neon-cyan font-display font-semibold text-lg leading-none mt-0.5">
               {fmtXlm(listing.price)}
               <span className="text-xs ml-1 text-gray-500 font-mono">XLM</span>
             </p>
           </div>
 
-          <button
+            <button
             type="button"
             disabled={isSelf || listing.status !== "active"}
             onClick={() => onBuy(listing)}
@@ -259,8 +259,11 @@ export function MarketplaceGrid({ listings, account, onPurchased }: MarketplaceG
   const [sort,   setSort]   = useState<SortKey>("newest");
   const [filter, setFilter] = useState("");
 
+  
+
   const activeListings = useMemo(() => {
-    let items = listings.filter((l) => l.status === "active");
+    const source = (listings && listings.length > 0) ? listings : (cachedListings || []);
+    let items = source.filter((l) => l.status === "active");
 
     if (filter.trim()) {
       const q = filter.toLowerCase();
